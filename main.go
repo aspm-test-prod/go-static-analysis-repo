@@ -8,7 +8,7 @@ import (
 
 	"github.com/gorilla/mux"
 )
-
+const password = "super_secret"
 func main() {
 
 	r := mux.NewRouter()
